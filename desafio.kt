@@ -47,7 +47,6 @@ fun main() {
     val formacaoKotlin = Formacao(nome="Formação Kotlin", nivel=Nivel.BASICO)
     formacaoKotlin.criarConteudo(cont1)
     formacaoKotlin.criarConteudo(cont2)
-
     formacaoKotlin.matricular(usuario1)
     formacaoKotlin.matricular(usuario2)
     formacaoKotlin.matricular(usuario3)
